@@ -1,14 +1,22 @@
+from pathlib import Path
+
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
+import streamlit as st
 
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+VECTORSTORE_PATH = BASE_DIR / "vectorstore"
+
+
+@st.cache_resource
 def load_vector_store():
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
 
     vector_store = FAISS.load_local(
-        "vectorstore",
+        str(VECTORSTORE_PATH),
         embeddings,
         allow_dangerous_deserialization=True
     )
