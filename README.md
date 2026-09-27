@@ -2,9 +2,7 @@
 
 A Retrieval-Augmented Generation based Document Question Answering system using LangChain, FAISS, Hugging Face embeddings and OpenAI.
 
-## 🚀 Live Demo
-
-👉 Try the RAG Document Q&A App
+## 🚀 Try The RAG Document Q&A App
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://rag-document-qsan.streamlit.app/)
 
