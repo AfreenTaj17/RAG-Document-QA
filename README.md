@@ -1,6 +1,20 @@
-# RAG-Based Document Question Answering
+# 📚 RAG-Based Document Q&A
 
-A Retrieval-Augmented Generation (RAG) based Document Question Answering system that allows users to ask questions about documents and receive context-aware answers using semantic search and a Large Language Model (LLM).
+A Retrieval-Augmented Generation based Document Question Answering system using LangChain, FAISS, Hugging Face embeddings and OpenAI.
+
+## 🚀 Live Demo
+
+👉 Try the RAG Document Q&A App
+
+https://rag-document-qsan.streamlit.app/
+
+## ✨ Features
+
+- Semantic document retrieval using FAISS
+- Hugging Face sentence-transformer embeddings
+- Configurable number of retrieved documents
+- Page-level source context display
+- Streamlit interactive interface
 
 The system combines **document processing, Hugging Face embeddings, FAISS vector search, LangChain, and OpenAI** to retrieve relevant information from documents before generating an answer.
 
