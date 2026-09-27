@@ -6,7 +6,7 @@ A Retrieval-Augmented Generation based Document Question Answering system using 
 
 👉 Try the RAG Document Q&A App
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](ttps://rag-document-qsan.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://rag-document-qsan.streamlit.app/)
 
 ## ✨ Features
 
